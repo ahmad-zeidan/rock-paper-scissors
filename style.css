@@ -1,0 +1,85 @@
+/* General body styling */
+body {
+  background-color: rgb(141, 166, 135);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container styling */
+main {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Game buttons section */
+.game-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.move-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.move-icon {
+  width: 100px;
+  height: 100px;
+}
+
+/* Styling for the results and score */
+.result {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.score {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+/* Buttons for resetting and autoplay */
+.reset-score-button, .auto-play-button {
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.reset-score-button {
+  background-color: #ff6b6b; /* Coral red */
+  color: white;
+}
+
+.reset-score-button:hover {
+  background-color: #ff4b4b; /* Slightly darker red on hover */
+}
+
+.auto-play-button {
+  background-color: #4da8da; /* Light blue */
+  color: white;
+}
+
+.auto-play-button:hover {
+  background-color: #3a95c7; /* Slightly darker blue on hover */
+}

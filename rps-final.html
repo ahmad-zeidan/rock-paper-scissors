@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play Rock, Paper, Scissors with a computer opponent!">
+    <title>Rock, Paper, Scissors!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Rock, Paper, Scissors!</h1>
+
+        <!-- Buttons for game moves -->
+        <section class="game-buttons">
+            <button class="move-button" id="rock-button" aria-label="Rock">
+                <img src="/images/rock.png" class="move-icon" alt="Rock">
+            </button>
+            <button class="move-button" id="paper-button" aria-label="Paper">
+                <img src="/images/paper.png" class="move-icon" alt="Paper">
+            </button>
+            <button class="move-button" id="scissors-button" aria-label="Scissors">
+                <img src="/images/scissors.png" class="move-icon" alt="Scissors">
+            </button>
+        </section>
+
+        <!-- Results and score -->
+        <p class="js-result result"></p>
+        <p class="js-moves"></p>
+        <p class="js-score score"></p>
+
+        <!-- Reset button -->
+        <button class="reset-score-button" id="reset-button" aria-label="Reset Score">
+            Reset Score
+        </button>
+
+        <!-- Auto Play button -->
+        <button class="auto-play-button" onclick="autoPlay();">Auto Play</button>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
